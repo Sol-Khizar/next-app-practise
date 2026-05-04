@@ -1,5 +1,9 @@
+import ProfileView from "@/section/profile/view/profile-view";
 import React from "react";
-import ProfileView from "../../section/profile/view/profile-view";
+
+export const metadata = {
+  title: "My Profile",
+};
 
 const page = () => {
   return <ProfileView />;
